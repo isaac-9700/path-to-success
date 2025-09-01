@@ -1,0 +1,133 @@
+/* CSS BY Isaac Hailey-Huiza */
+/* IMPORTED FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+
+/* CSS RESET */
+*/ html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* ROOT VARIABLES */
+:root {
+  --teal: #4ca7c0;
+  --purple: #484fb7;
+  --lavender: #6b8fe7;
+  --yellow: #e9bb57;
+  --pink: #d9526f;
+  --Dark-gray: #1e1e1e;
+  --white: #ffffff;
+}
+/* GLOBAL STYLES (mobile first/small) */
+
+* {
+  font-family: Inter;
+}
+
+h1,
+h2 {
+  font-family: Kavoon;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+nav h2 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
