@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
 
 /* CSS RESET */
-*/ html,
+html,
 body,
 div,
 span,
@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* ROOT VARIABLES */
 :root {
   --teal: #4ca7c0;
@@ -101,10 +102,17 @@ video {
   --Dark-gray: #1e1e1e;
   --white: #ffffff;
 }
+
 /* GLOBAL STYLES (mobile first/small) */
 
 * {
   font-family: Inter;
+}
+
+body {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: var(--lavender);
 }
 
 h1,
@@ -114,20 +122,230 @@ h2 {
 
 h1 {
   font-size: 3em;
+  padding: 1rem;
+}
+
+h2 {
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+.path-to-success {
+  text-align: center;
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.path-to-success p {
+  font-style: italic;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
+  font-family: Inter;
+  font-size: 0.75em;
+}
+
+.top-nav {
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: Inter;
+}
+
+.top-nav li {
+  font-weight: bold;
+  text-align: center;
+}
+
+.top-nav h2 {
+  font-family: Inter;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: -1rem;
+  margin-bottom: -0.25rem;
+}
+
+nav ul {
+  list-style-type: none;
+  color: var(--purple);
+  width: 100%;
+}
+
+li {
+  background-color: var(--white);
+  margin: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  list-style-type: none;
+}
+
+a {
+  color: blue;
+}
+
+main {
+  background-color: var(--purple);
+}
+
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  margin-top: -0.75rem;
+}
+
+.our-services > h3 {
+  text-align: left;
+}
+
+.success-styles {
+  background-color: var(--white);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0.75rem;
+}
+
+.success-styles p {
+  margin-bottom: 0.75rem;
+}
+
+.why-choose {
+  background-color: var(--pink);
+  padding: 1rem;
+}
+
+.choose {
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem 1rem;
+}
+
+.personalized {
+  background-color: var(--teal);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.proven {
+  background-color: var(--lavender);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.supportive {
+  background-color: var(--yellow);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.flexible {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 nav h2 {
+  color: var(--Dark-gray);
   font-size: 1.5em;
 }
 
 h2 {
   font-size: 2em;
+  padding-left: 1rem;
 }
 
 h3 {
+  color: var(--yellow);
   font-size: 1.5em;
+  padding-left: 1rem;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 1.15em;
+  color: var(--purple);
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+th {
+  background-color: var(--yellow);
+  padding: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: var(--white);
+  padding: 0.75rem;
+}
+
+th,
+td {
+  border: 2px solid var(--yellow);
+}
+
+.pricing-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-step {
+  background-color: var(--pink);
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.first-step h2 {
+  text-align: left;
+}
+
+.first-step > p {
+  color: var(--white);
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+}
+
+.schedule {
+  background-color: var(--white);
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 4rem;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px;
+}
+
+footer {
+  color: var(--white);
+  font-family: Inter;
+  font-size: 0.75em;
+  background-color: var(--purple);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+footer > a {
+  color: var(--white);
 }
